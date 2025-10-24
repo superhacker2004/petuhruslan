@@ -1,0 +1,315 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+background: #1F04AB;
+background: radial-gradient(at left bottom, #00fff2, #fafafa);
+         
+        }
+         .container {
+            text-align: center;
+            background-color: rgba(0, 255, 76, 0.1);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 255, 157, 0.3);
+            backdrop-filter: blur(10px);
+            max-width: 500px;
+            width: 100%;
+        }
+          h1 {
+            color: white;
+            margin-bottom: 30px;
+            font-size: 32px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+    .petuh {
+            position: absolute;
+            width: 75px;
+            height: 100px;
+            background: linear-gradient(135deg, hwb(66 0% 1%), #ffbe32);
+            border-radius: 120px 120px 150px 150px;
+            top: 450px;
+            left: 1025px;
+            z-index: 2;
+            box-shadow  : inset 0 -5px 15px rgba(0, 0, 0, 0.2);
+        }
+           .petuh-head {
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    background: linear-gradient(135deg, hwb(66 0% 1%), #ffbe32);
+    border-radius: 500px 500px 400px 400px;
+    top: 375px;
+    left: 1015px;
+    z-index: 2;
+    box-shadow: inset 0 -5px 15px rgba(0, 0, 0, 0.2);
+    animation: headTilt 3s ease-in-out infinite;
+}
+          .petuh-ice {
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            background: linear-gradient(135deg, hwb(0 0% 100%), #000000);
+            border-width: 1px;
+            border-style:ridge;
+            border-color: black;
+
+            border-radius: 500px 500px 500px 500px;
+            top: 410px;
+            left: 1030px;
+            z-index: 2;
+            box-shadow  : inset 0 -5px 15px rgba(0, 0, 0, 0.2);
+        }
+          
+          .petuh-ice2 {
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            background: linear-gradient(135deg, hwb(0 0% 100%), #000000);
+            border-width: 1px;
+            border-style:ridge;
+            border-color: black;
+
+            border-radius: 500px 500px 500px 500px;
+            top: 410px;
+            left: 1080px;
+            z-index: 2;
+            box-shadow  : inset 0 -5px 15px rgba(0, 0, 0, 0.2);
+        }
+         .petuh-kluv {
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            background: linear-gradient(135deg, hwb(39 14% 23%), #d8801c);
+ border-left: 20px solid transparent;
+  border-right: 20px solid transparent; border-top: 15px solid  #d8801c; 
+ 
+            border-radius: 500px 500px 500px 500px;
+            top: 431px;
+            left: 1042px;
+            z-index: 2;
+            box-shadow  : inset 0 -5px 15px rgba(0, 0, 0, 0.2);
+        }
+            .petuh-noga {
+            position: absolute;
+            width: 5px;
+            height: 30px;
+            background: linear-gradient(135deg, hwb(39 0% 0%), #ff8800);
+
+            border-radius: 500px 500px 500px 500px;
+            top: 546px;
+            left: 1049px;
+            z-index: 2;
+            box-shadow  : inset 0 -5px 15px rgba(0, 0, 0, 0.2);
+        }
+               
+            .petuh-noga2 {
+            position: absolute;
+            width: 5px;
+            height: 30px;
+            background: linear-gradient(135deg, hwb(39 0% 0%), #ff8800);
+
+            border-radius: 500px 500px 500px 500px;
+            top: 546px;
+            left: 1069px;
+            z-index: 2;
+            box-shadow  : inset 0 -5px 15px rgba(0, 0, 0, 0.2);
+        }
+             
+.petuh {
+    position: absolute;
+    width: 75px;
+    height: 100px;
+    background: linear-gradient(135deg, hwb(66 0% 1%), #ffbe32);
+    border-radius: 120px 120px 150px 150px;
+    top: 450px;
+    left: 1025px;
+    z-index: 2;
+    box-shadow: inset 0 -5px 15px rgba(0, 0, 0, 0.2);
+    animation: jump 2s ease-in-out infinite;
+}
+@keyframes jump {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+.petuh-wing-left {
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    background: linear-gradient(135deg, hwb(66 0% 1%), #ffbe32);
+    border-radius: 50% 50% 50% 10%;
+    top: 450px;
+    left: 975px;
+    z-index: 1;
+    box-shadow: inset 0 -5px 15px rgba(0, 0, 0, 0.2);
+    transform: rotate(-20deg);
+    animation: flapLeft 0.5s ease-in-out infinite;
+    transform-origin: right center;
+}
+
+.petuh-wing-right {
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    background: linear-gradient(135deg, hwb(66 0% 1%), #ffbe32);
+    border-radius: 50% 50% 10% 50%;
+    top: 450px;
+    left: 1090px;
+    z-index: 1;
+    box-shadow: inset 0 -5px 15px rgba(0, 0, 0, 0.2);
+    transform: rotate(20deg);
+    animation: flapRight 0.5s ease-in-out infinite;
+    transform-origin: left center;
+}
+
+@keyframes flapLeft {
+    0%, 100% {
+        transform: rotate(-20deg) scaleY(1);
+    }
+    50% {
+        transform: rotate(-40deg) scaleY(0.8);
+    }
+}
+
+@keyframes flapRight {
+    0%, 100% {
+        transform: rotate(20deg) scaleY(1);
+    }
+    50% {
+        transform: rotate(40deg) scaleY(0.8);
+    }
+}
+.petuh-head {
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    background: linear-gradient(135deg, hwb(66 0% 1%), #ffbe32);
+    border-radius: 500px 500px 400px 400px;
+    top: 375px;
+    left: 1015px;
+    z-index: 2;
+    box-shadow: inset 0 -5px 15px rgba(0, 0, 0, 0.2);
+    animation: headBob 2s ease-in-out infinite;
+}
+
+@keyframes headBob {
+    0%, 100% {
+        transform: translateY(0) rotate(0deg);
+    }
+    25% {
+        transform: translateY(-15px) rotate(2deg);
+    }
+    50% {
+        transform: translateY(-25px) rotate(0deg);
+    }
+    75% {
+        transform: translateY(-5px) rotate(-2deg);
+    }
+}
+.petuh-noga, .petuh-noga2 {
+    animation: legMove 0.5s ease-in-out infinite;
+}
+
+@keyframes legMove {
+    0%, 100% {
+        transform: translateY(0) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-1px) rotate(2deg);
+    }
+}
+.petuh-ice, .petuh-ice2, .petuh-kluv, .petuh-kogot, .petuh-kogot2 {
+    animation: jump 2s ease-in-out infinite;
+}
+
+@keyframes smoothJump {
+    0%, 100% {
+        transform: translateY(-5px);
+        animation-timing-function: cubic-bezier(0.4, 0, 1, 1);
+    }
+    50% {
+        transform: translateY(-25px);
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+}
+.petuh-wing-left {
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    background: linear-gradient(135deg, hwb(66 0% 1%), #ffbe32);
+    border-radius: 50% 50% 50% 10%;
+    top: 450px;
+    left: 975px;
+    z-index: 1;
+    box-shadow: inset 0 -5px 15px rgba(0, 0, 0, 0.2);
+    transform: rotate(-10deg);
+    animation: smoothFlap 0.4s ease-in-out infinite;
+    transform-origin: right center;
+}
+.petuh-wing-right {
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    background: linear-gradient(135deg, hwb(66 0% 1%), #ffbe32);
+    border-radius: 50% 50% 10% 50%;
+    top: 450px;
+    left: 1090px;
+    z-index: 1;
+    box-shadow: inset 0 -5px 15px rgba(0, 0, 0, 0.2);
+    transform: rotate(10deg);
+    animation: smoothFlap 0.4s ease-in-out infinite;
+    transform-origin: left center;
+}
+
+@keyframes smoothFlap {
+    0%, 100% {
+        transform: rotate(0deg) scaleY(0.9);
+    }
+    50% {
+        transform: rotate(-25deg) scaleY(1.1);
+    }
+}
+.petuh-wing-right {
+    animation: smoothFlapRight 0.4s ease-in-out infinite;
+}
+@keyframes smoothFlapRight {
+    0%, 100% {
+        transform: rotate(0deg) scaleY(0.9);
+    }
+    50% {
+        transform: rotate(25deg) scaleY(1.1);
+    }
+}
+@keyframes headTilt {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(3deg);
+    }
+    75% {
+        transform: rotate(-3deg);
+    }
+}
+.petuh-ice, 
+.petuh-ice2, 
+.petuh-kluv, 
+.petuh-noga, 
+.petuh-noga2,
+.petuh-kogot,
+.petuh-kogot2 {
+    animation: smoothJump 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
